@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { WebsiteRankingDto, WebsiteRankingPayload } from '~/models/website-ranking';
+import { WebsiteRankingDto, WebsiteRankingPayload } from '../models/website-ranking';
 import queryString from 'query-string'
 
 export const useWebsiteRanking = defineStore('websiteRankingStore', {
